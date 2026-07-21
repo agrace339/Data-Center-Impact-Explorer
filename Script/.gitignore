@@ -5,7 +5,7 @@
 *.txt
 
 # macOS system files (all directories)
-**/.DS_Store
+.DS_Store
 **/.AppleDouble
 **/.LSOverride
 **/._*
