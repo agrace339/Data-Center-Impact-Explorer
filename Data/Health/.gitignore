@@ -1,0 +1,15 @@
+# CSV files (all directories)
+*.csv
+
+# Text files (all directories)
+*.txt
+
+# macOS system files (all directories)
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
+**/._*
+**/.Spotlight-V100
+**/.Trashes
+**/.fseventsd
+**/Icon?
