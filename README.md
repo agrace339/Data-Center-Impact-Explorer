@@ -1,8 +1,10 @@
 # Data Center Impact Explorer
 
-A data science capstone project investigating the environmental, infrastructure, political, and community impacts of data center development across the United States.
+*Drexel University MS in Data Science Capstone I*
 
-The project integrates multiple public datasets with the FracTracker Alliance Data Center Database to explore factors that may influence where data centers are built and how they affect surrounding communities.
+A data science capstone project analyzing the relationship between data centers and surrounding communities across the United States and investigating the potential impacts of data center development on local areas.
+
+The project integrates multiple public datasets with data from the the FracTracker Alliance U.S. Data Centers Tracker to explore factors that may influence where data centers are built and existing conditions or issues within the surrounding areas that could potentially be exacerbated by data center development.
 
 ---
 
@@ -17,18 +19,19 @@ The project integrates multiple public datasets with the FracTracker Alliance Da
 
 ## Project Objectives
 
-This project explores several research questions related to data center development, including:
+This project explores several research questions related to data center development, including the following:
 
-- How do data centers impact local power infrastructure?
-- Are there political factors associated with where data centers are developed?
-- Do environmental conditions influence site selection?
-- How can disparate public datasets be integrated for county-level analysis?
+- Data centers have a high water demand; are they located in areas already prone to drought, when they might pose additional strain? 
+- Data centers also have high electricity demand; what are the conditions for electricity production and pricing where they are located? 
+- Data centers produce pollution that can cause or exacerbate certain health conditions; what are the existing health concerns in local communities that could be aggravated?
+- Local governments play a role in data center siting in terms of zoning, permitting, and incentives; what are the political conditions in areas with data centers?
 
 ---
 
 ## Repository Structure
 
 ```
+<mark>Everyone can add their data to the folder as needed and then record it here -- but please be extra careful about permissions for reposting data!!!</mark>
 Data/
 │
 ├── Data_Centers_Database - FracTracker Data Centers.csv
@@ -38,14 +41,22 @@ Data/
 └── Drought/
 
 Script/
+│
+├── Inspection Data Centers and Politics.ipynb
 ├── Dev_ZIP_to_FIPS.ipynb
+├── Preprocessing AEO2026.ipynb
 ├── Preprocessing ELEC.ipynb
 ├── Preprocessing Politics.ipynb
+├── Health_Data_Cleaning_and_Investigation.ipynb
+├── Industrial Electricity Prices with AEO2026.ipynb
+├── Build State-Year ELEC Dataset.ipynb
 ├── EDA ELEC.ipynb
 ├── EDA Politics.ipynb
-├── EDA Health.ipynb
 └── EDA Drought.ipynb
 ```
+<mark>Should we divide up the Script folder into sub-folders, since we have so many files in there now?</mark>
+
+<mark>We should also probably add a folder with all our presentations/reports</mark>
 
 ---
 
@@ -60,6 +71,8 @@ The project combines several publicly available datasets, including:
 - **National Health Interview Survey (NHIS)**
 - **National Survey on Drug Use and Health (NSDUH)**
 - **U.S. Drought Monitor**
+
+<mark> Note which data is included in the repository and which is not</mark>
 
 ---
 
