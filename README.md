@@ -67,26 +67,30 @@ Script/
 
 The project combines several publicly available datasets, as follows. 
 
-**Data on Data Centers**
+### Data on Data Centers
 
 * [FracTracker Alliance U.S. Data Centers Tracker](https://experience.arcgis.com/experience/5a4d072ad01449bba5698a80103fb909/page/About): Contains over 1,500 individual data centers in the U.S. with their precision locations and additional information. The data is allowed to be downloaded, shared, and used as long as proper credit is given to FracTracker. <mark>Should we include this data in the repository or not?</mark>
 
-**Data on Drought**
+### Data on Drought
 
 * <mark>Add here - note source(s), reuse permissions, whether data is reposted in this repository</mark>
 
-**Data on Electricity**
+### Data on Electricity
 
 * <mark>Add here - note source(s), reuse permissions, whether data is reposted in this repository</mark>
 
-**Data on Health**
+### Data on Health
 
 * <mark>Add here - note source(s), reuse permissions, whether data is reposted in this repository</mark>
 
-**Data on Politics**
+### Data on Politics
 
 * [National Neighborhood Data Archive (NaNDA) (ICPSR 38506)](https://www.icpsr.umich.edu/web/ICPSR/studies/38506#): Voter registration, turnout, and partisanship by county in the U.S. from 2004 to 2022. The data is public access as a TSV within a downloadable zip file with accompanying documentation, but requires having or making an account to download; redistribution of this dataset is not permitted, so the data is not included in this repository. 
-* [American Local Government Elections Database](https://osf.io/mv5e6/overview): Local election results at the city and county level from 1989 to 2021. The data is open access under the CC-By Attribution 4.0 International license. This data was explored in `Inspection Data Center and Politics.ipynb` and `Preprocessing politics.ipynb` but ultimately found to not be comprehensive enough for our project goals, and so is not included in this repository. 
+* [American Local Government Elections Database](https://osf.io/mv5e6/overview): Local election results at the city and county level from 1989 to 2021. The data is open access under the CC-By Attribution 4.0 International license. This data was explored in `Inspection Data Center and Politics.ipynb` and `Preprocessing politics.ipynb` but ultimately found to not be comprehensive enough for our project goals, and so is not included in this repository.
+
+### Supporting Data 
+
+* [RowZero FIPS code lists and location mapping](https://rowzero.com/datasets/fips-codes-lookup) (specifically sheet titled “Zip to County”): Provides conversion from ZIP code to FIPS code, which is necessary for joining on location between e.g. the data center data and political data. This dataset is free to use but requires a Row Zero account to download, and so is not reposted in this repository.
 
 ---
 
@@ -119,10 +123,46 @@ Each notebook documents the preprocessing, data quality assessment, and explorat
 
 <mark>Could link off here to Tableau sites, StreamLit again, etc.</mark>
 
+---
+
 ## <mark>Add section for supplementary materials?</mark>
 
 <mark>Reports, presentations, etc.</mark>
 
+---
+
 ## References
 
-<mark>Add here</mark>
+<mark>Everyone please feel free to add/move things around</mark>
+
+### Data Used in Final Analysis and Visualization 
+
+- Clary, W., Gomez-Lopez, I. N., Chenoweth, M., Gypin, L., Clarke, P., Noppert, G., Li, M., & Kollman, K. (2024). National Neighborhood Data Archive (NaNDA): Voter Registration, Turnout, and Partisanship by County, United States, 2004-2022 [Data set]. *Inter-university Consortium for Political and Social Research*. https://www.icpsr.umich.edu/web/ICPSR/studies/38506/versions/V2
+- FracTracker. (2026, July). U.S. Data Centers Tracker [Data set]. *FracTracker Alliance*. https://experience.arcgis.com/experience/5a4d072ad01449bba5698a80103fb909/page/Demographics 
+- National Center for Health Statistics. (2024). 2024 NHIS Questionnaire, Datasets, and Documentation [Data set]. *U.S. Centers for Disease Control and Prevention*. https://www.cdc.gov/nchs/nhis/documentation/2024-nhis.html
+- National Center for Health Statistics. (2024). 2024 NHIS Questionnaire, Datasets, and Documentation [Codebook]. *U.S. Centers for Disease Control and Prevention*. https://www.cdc.gov/nchs/nhis/documentation/2024-nhis.html
+- Row Zero. (2025, March 6). *FIPS codes for all U.S. locations in a spreadsheet* [Data set]. https://rowzero.com/datasets/fips-codes-lookup#zip-code-mappings
+- United Health Foundation (2025). America's Health Rankings 2025 annual report [Data set]. *America’s Health Rankings*. https://www.americashealthrankings.org/publications/reports/2025-annual-report
+- United Health Foundation. (2025). 2025 Annual Report: Measures table. *America's Health Rankings*. https://assets.americashealthrankings.org/ahr_2025annual_measurestable_final-web.pdf
+- U.S. Drought Monitor. (n.d.). Data Tables [Data set]. *U.S. Drought Monitor*. https://droughtmonitor.unl.edu/DmData/DataTables.aspx
+- U.S. Energy Information Administration (2025). *EIA Bulk Data* [Data set]. https://www.eia.gov/opendata/
+
+### Other Data Inspected 
+
+- de Benedictis-Kessner, J., Lee, D. D. I., Velez, Y. R., & Warshaw, C. (2023). American local government elections database. *Scientific Data*, *10*(1), 912.
+- de Benedictis-Kessner, J., Lee, D., Velez, Y. R., & Warshaw, C. (2023, May 16). *American Local Government Elections Database* [Data set]. Retrieved from osf.io/mv5e6. 
+
+### Background Materials
+
+- CDC. (2024). NCHS Urban-Rural Classification Scheme for Counties. *National Center for Health Statistics*. https://www.cdc.gov/nchs/data-analysis-tools/urban-rural.html
+- Federal Communications Commission. (n.d.). *Federal Information Processing System (FIPS) Codes for States and Counties*. https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt 
+- Han, Y., Wu, Z., Li, P., Wierman, A., & Ren, S. (2024). *Health-Informed Computing: Estimating and Addressing the Public Health Impact of Data Centers*. https://arxiv.org/abs/2412.06288
+- Jones, J.M. (2026, May 13). Americans oppose AI data centers in their area. *Gallup*. https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx
+- Malone, K. (2026, February 16). A quick guide to Pennsylvania’s data center debate. *Technical.ly*. https://technical.ly/civics/pennsylvania-data-centers-explained/ 
+- National League of Cities & AAAS Center for Scientific Evidence in Public Issues (EPI Center). (n.d.). *Community strategies to address data center development and operation*.
+- Pate, C. A., Akinbami, L. J., Johnson, C., Hsu, J., & Zahran, H. S. (2025). Asthma and Allergy Comorbidity Among the US Population Aged 2 Years or Older, National Health Interview Survey, 2021. *Public health reports (Washington, D.C. : 1974)*, *140*(5-6), 540–550. https://doi.org/10.1177/00333549251358658   
+- Pavlinich, E. J. (2026). *The Dangers of Data Centers. Environmental Health Project*. Retrieved from https://www.environmentalhealthproject.org/post/the-dangers-of-data-centers 
+- Stansbury, M., Marchese, K., Hardin, K., & Amon, C. (2025, June 24). Can US infrastructure keep up with the AI economy? *Deloitte Insights*. 
+https://www.deloitte.com/us/en/insights/industry/power-and-utilities/data-center-infrastructure-artificial-intelligence.html
+- United States Census Bureau (n.d.). Geographic Levels. *Guidance for Economic Census Geography Users*. https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html 
+
