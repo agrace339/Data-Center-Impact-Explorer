@@ -131,6 +131,10 @@ Each notebook documents the preprocessing, data quality assessment, and explorat
 
 ---
 
+## <mark>Add any additional sections, e.g., required Python packages?</mark>
+
+---
+
 ## References
 
 <mark>Everyone please feel free to add/move things around</mark>
