@@ -12,7 +12,7 @@ The project integrates multiple public datasets with data from the the FracTrack
 
 ## Team
 
-- Anna Grace
+- Anna Grace 
 - Jillian Kunze
 - Andrea MacGregor
 - Morgan Murphy
@@ -56,10 +56,17 @@ Script/
 ├── EDA ELEC.ipynb
 ├── EDA Politics.ipynb
 └── EDA Drought.ipynb
+
+Presentations and Reports/
+│
+├── Launch Report.pdf
+├── Launch Presentation.pdf
+├── Pitch Presentation.pdf
+├── Data Acquisition and Pre-processing Report.pdf
+└── EDA Presentation.pdf
+
 ```
 <mark>Should we divide up the Script folder into sub-folders, since we have so many files in there now?</mark>
-
-<mark>We should also probably add a folder with all our presentations/reports</mark>
 
 ---
 
@@ -96,6 +103,8 @@ The project combines several publicly available datasets, as follows.
 
 ## Repository Contents: Scripts 
 
+Each notebook documents the preprocessing, data quality assessment, and exploratory analyses performed for its relevant work and respective dataset(s).
+
 ### Development
 
 - `Inspection Data Centers and Politics.ipynb`: Initial inspection of primary data centers dataset and data related to political factors
@@ -119,15 +128,19 @@ EDA notebooks examining:
 - Health datasets <mark>(Is there a notebook for this or is it all in Tableau?)</mark>
 - Drought conditions (`EDA Drought.ipynb`)
 
-Each notebook documents the preprocessing, data quality assessment, and exploratory analyses performed for its respective dataset.
-
 <mark>Could link off here to Tableau sites, StreamLit again, etc.</mark>
 
 ---
 
-## <mark>Add section for supplementary materials?</mark>
+## Presentations and Reports
 
-<mark>Reports, presentations, etc.</mark>
+We include the presentations and written reports prepared as part of this capstone project in Drexel University course DSCI 591, which can be understood in sequential order: 
+
+- `Launch Report.pdf`: Initial proposal of project, plan of work, and description of team background
+- `Launch Presentation.pdf`: Presentation following launch report, with initial data inspection
+- `Pitch Presentation.pdf`: Presentation with more detailed background and data overview and inspection
+- `Data Acquisition and Pre-processing Report.pdf`: Report describing data sources and pre-processing steps in detail
+- `EDA Presentation.pdf`: Presentation of in-progress exploratory data analysis and visualization
 
 ---
 
