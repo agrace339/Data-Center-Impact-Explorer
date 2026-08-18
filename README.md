@@ -32,14 +32,10 @@ This project explores several research questions related to data center developm
 
 ## Repository Structure
 
-<mark>Everyone can add their data to the folder as needed and then record it here -- but please be extra careful about permissions for reposting data!!!</mark>
-
 ```
 Data/
 │
-├── Data_Centers_Database - FracTracker Data Centers.csv
 ├── Electricity/
-├── Politics/
 ├── Health/
 └── Drought/
 
@@ -66,17 +62,16 @@ Presentations and Reports/
 └── EDA Presentation.pdf
 
 ```
-<mark>Should we divide up the Script folder into sub-folders, since we have so many files in there now?</mark>
 
 ---
 
 ## Data Sources
 
-The project combines several publicly available datasets, as follows. 
+The project combines several publicly available datasets, as follows. Some data is permitted for reproduction while some is not, so please see below for details and instructions for acquiring data if necessary.  
 
 ### Data on Data Centers
 
-* [FracTracker Alliance U.S. Data Centers Tracker](https://experience.arcgis.com/experience/5a4d072ad01449bba5698a80103fb909/page/About): Contains over 1,500 individual data centers in the U.S. with their precision locations and additional information. The data is allowed to be downloaded, shared, and used as long as proper credit is given to FracTracker.
+* [FracTracker Alliance U.S. Data Centers Tracker](https://experience.arcgis.com/experience/5a4d072ad01449bba5698a80103fb909/page/About): Contains over 1,500 individual data centers in the U.S. with their precision locations and additional information. The data is allowed to be downloaded, shared, and used as long as proper credit is given to FracTracker; however, accessing the data requires agreeing to FracTracker terms and conditions which we are not able to replicate here, so please download the data from the link if you wish to reproduce our work.
 
 ### Data on Drought
 
@@ -149,8 +144,6 @@ We include the presentations and written reports prepared as part of this capsto
 ---
 
 ## References
-
-<mark>Everyone please feel free to add/move things around</mark>
 
 ### Data Used in Final Analysis and Visualization 
 
