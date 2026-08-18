@@ -85,8 +85,8 @@ The project combines several publicly available datasets, as follows. Some data 
 
 ### Data on Health
 
-* [America’s Health Rankings (AHR) 2025 Annual Report](https://www.americashealthrankings.org/publications/reports/2025-annual-report) data provided by the United Health Foundation: Synthesizes data from over 50 reputable, publicly available data sources and includes over 250 measures related to U.S. public health. The report and dataset is public access and free to use, with no account required for access or download.
-* [2024 National Health Interview Survey (NHIS)](https://www.cdc.gov/nchs/nhis/documentation/2024-nhis.html), conducted and published by the National Center for Health Statistics: Information about physical and mental health conditions, disabilities, and health care access at the region level. This dataset is also public access and free to use, with the only requirement explicitly stated being proper attribution of credit to the NCHS.   
+* [America’s Health Rankings (AHR) 2025 Annual Report](https://www.americashealthrankings.org/publications/reports/2025-annual-report) data provided by the United Health Foundation: Synthesizes data from over 50 reputable, publicly available data sources and includes over 250 measures related to U.S. public health. The report and dataset is public access and free to use, with no account required for access or download. Redistribution of this data is permitted for educational and non-profit purposes. 
+* [2024 National Health Interview Survey (NHIS)](https://www.cdc.gov/nchs/nhis/documentation/2024-nhis.html), conducted and published by the National Center for Health Statistics: Information about physical and mental health conditions, disabilities, and health care access at the region level. Redistribution of this dataset is not permitted; however, it is also public access and free to use, with the only requirement explicitly stated being proper attribution of credit to the NCHS.
 
 ### Data on Politics
 
