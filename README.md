@@ -6,7 +6,7 @@ A data science capstone project analyzing the relationship between data centers 
 
 The project integrates multiple public datasets with data from the the FracTracker Alliance U.S. Data Centers Tracker to explore factors that may influence where data centers are built and existing conditions or issues within the surrounding areas that could potentially be exacerbated by data center development.
 
-<mark>Add link to StreamLit site</mark>
+Note: The public StreamLit site is in the works. The link will be pasted here when complete. 
 
 ---
 
