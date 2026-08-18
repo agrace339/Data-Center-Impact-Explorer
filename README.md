@@ -76,11 +76,11 @@ The project combines several publicly available datasets, as follows.
 
 ### Data on Data Centers
 
-* [FracTracker Alliance U.S. Data Centers Tracker](https://experience.arcgis.com/experience/5a4d072ad01449bba5698a80103fb909/page/About): Contains over 1,500 individual data centers in the U.S. with their precision locations and additional information. The data is allowed to be downloaded, shared, and used as long as proper credit is given to FracTracker. <mark>Should we include this data in the repository or not?</mark>
+* [FracTracker Alliance U.S. Data Centers Tracker](https://experience.arcgis.com/experience/5a4d072ad01449bba5698a80103fb909/page/About): Contains over 1,500 individual data centers in the U.S. with their precision locations and additional information. The data is allowed to be downloaded, shared, and used as long as proper credit is given to FracTracker.
 
 ### Data on Drought
 
-* <mark>Add here - note source(s), reuse permissions, whether data is reposted in this repository</mark>
+* [U.S. Drought Monitor Site](https://droughtmonitor.unl.edu/CurrentMap.aspx): Tracks the drought across the U.S. on a weekly basis. The data can be used in tandem with this blurb: The U.S. Drought Monitor is jointly produced by the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture, the National Oceanic and Atmospheric Administration and the National Aeronautics and Space Administration. Map courtesy of NDMC.
 
 ### Data on Electricity
 
