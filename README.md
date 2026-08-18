@@ -139,10 +139,6 @@ We include the presentations and written reports prepared as part of this capsto
 
 ---
 
-## <mark>Add any additional sections, e.g., required Python packages?</mark>
-
----
-
 ## References
 
 ### Data Used in Final Analysis and Visualization 
