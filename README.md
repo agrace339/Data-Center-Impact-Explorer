@@ -63,6 +63,8 @@ Presentations and Reports/
 
 ```
 
+*Please note that datasets will be added as republishing permissions allow*
+
 ---
 
 ## Data Sources
