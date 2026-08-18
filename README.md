@@ -100,6 +100,15 @@ The project combines several publicly available datasets, as follows. Some data 
 
 Each notebook documents the preprocessing, data quality assessment, and exploratory analyses performed for its relevant work and respective dataset(s).
 
+## Requirements
+* `pandas`
+* `matplotlib.pyplot`
+* `seaborn`
+* `urllib.request`
+* `plotly`
+* `numpy`
+* `sklearn`
+
 ### Development
 
 - `Inspection Data Centers and Politics.ipynb`: Initial inspection of primary data centers dataset and data related to political factors
