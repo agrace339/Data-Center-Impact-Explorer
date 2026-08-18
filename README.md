@@ -63,7 +63,7 @@ Presentations and Reports/
 
 ```
 
-*Please note that datasets will be added as republishing permissions allow*
+*Please note that datasets will be added to the structure shown above as republishing permissions allow*
 
 ---
 
@@ -81,11 +81,12 @@ The project combines several publicly available datasets, as follows. Some data 
 
 ### Data on Electricity
 
-* <mark>Add here - note source(s), reuse permissions, whether data is reposted in this repository</mark>
+* [U.S. Energy Information Administration (EIA) Bulk Data](https://www.eia.gov/opendata/v1/bulkfiles.php): Provides extensive information on electricity generation, customer counts, retail electricity prices, and other energy-related statistics across the United States.
 
 ### Data on Health
 
-* <mark>Add here - note source(s), reuse permissions, whether data is reposted in this repository</mark>
+* [America’s Health Rankings (AHR) 2025 Annual Report](https://www.americashealthrankings.org/publications/reports/2025-annual-report) data provided by the United Health Foundation: Synthesizes data from over 50 reputable, publicly available data sources and includes over 250 measures related to U.S. public health. The report and dataset is public access and free to use, with no account required for access or download.
+* [2024 National Health Interview Survey (NHIS)](https://www.cdc.gov/nchs/nhis/documentation/2024-nhis.html), conducted and published by the National Center for Health Statistics: Information about physical and mental health conditions, disabilities, and health care access at the region level. This dataset is also public access and free to use, with the only requirement explicitly stated being proper attribution of credit to the NCHS.   
 
 ### Data on Politics
 
@@ -102,7 +103,7 @@ The project combines several publicly available datasets, as follows. Some data 
 
 Each notebook documents the preprocessing, data quality assessment, and exploratory analyses performed for its relevant work and respective dataset(s).
 
-## Requirements
+### Requirements
 * `pandas`
 * `matplotlib.pyplot`
 * `seaborn`
@@ -115,13 +116,13 @@ Each notebook documents the preprocessing, data quality assessment, and explorat
 
 - `Inspection Data Centers and Politics.ipynb`: Initial inspection of primary data centers dataset and data related to political factors
 - `Dev_ZIP_to_FIPS.ipynb`: Development of ZIP code to FIPS code (county indentifier) conversion workflow
-- `Industrial Electricity Prices with AEO2026.ipynb`: <mark>Add description, move to different section if needed</mark>
+- `Industrial Electricity Prices with AEO2026.ipynb`
 
 ### Preprocessing
 
-- `Build State-Year ELEC Dataset.ipynb`: <mark>Add description, move to different section if needed</mark>
-- `Health_Data_Cleaning_and_Investigation.ipynb`: <mark>Add description, move to different section if needed</mark>
-- `Preprocessing AEO2026.ipynb`: <mark>Add description</mark>
+- `Build State-Year ELEC Dataset.ipynb`
+- `Health_Data_Cleaning_and_Investigation.ipynb`
+- `Preprocessing AEO2026.ipynb`
 - `Preprocessing ELEC.ipynb`: Data cleaning and pre-processing for electricity dataset
 - `Preprocessing Politics.ipynb`: Data cleaning and pre-processing for political datasets
 
@@ -131,10 +132,7 @@ EDA notebooks examining:
 
 - Electricity and power infrastructure (`EDA ELEC.ipynb`)
 - Political indicators (`EDA Politics.ipynb`)
-- Health datasets <mark>(Is there a notebook for this or is it all in Tableau?)</mark>
 - Drought conditions (`EDA Drought.ipynb`)
-
-<mark>Could link off here to Tableau sites, StreamLit again, etc.</mark>
 
 ---
 
