@@ -47,11 +47,13 @@ Script/
 ├── Preprocessing ELEC.ipynb
 ├── Preprocessing Politics.ipynb
 ├── Health_Data_Cleaning_and_Investigation.ipynb
+├── Commercial Electricity Prices with AEO2026.ipynb
 ├── Industrial Electricity Prices with AEO2026.ipynb
 ├── Build State-Year ELEC Dataset.ipynb
 ├── EDA ELEC.ipynb
 ├── EDA Politics.ipynb
-└── EDA Drought.ipynb
+├── EDA Drought.ipynb
+└── Data_Center_Grid_Strain_Findings.ipynb
 
 Presentations and Reports/
 │
@@ -118,6 +120,7 @@ Each notebook documents the preprocessing, data quality assessment, and explorat
 - `Inspection Data Centers and Politics.ipynb`: Initial inspection of primary data centers dataset and data related to political factors
 - `Dev_ZIP_to_FIPS.ipynb`: Development of ZIP code to FIPS code (county indentifier) conversion workflow
 - `Industrial Electricity Prices with AEO2026.ipynb`
+- `Commercial Electricity Prices with AEO2026.ipynb`
 
 ### Preprocessing
 
@@ -131,7 +134,7 @@ Each notebook documents the preprocessing, data quality assessment, and explorat
 
 EDA notebooks examining:
 
-- Electricity and power infrastructure (`EDA ELEC.ipynb`)
+- Electricity and power infrastructure (`EDA ELEC.ipynb` and `Data_Center_Grid_Strain_Findings.ipynb`)
 - Political indicators (`EDA Politics.ipynb`)
 - Drought conditions (`EDA Drought.ipynb`)
 
