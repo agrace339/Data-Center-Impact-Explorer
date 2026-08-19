@@ -84,7 +84,10 @@ The project combines several publicly available datasets, as follows. Some data 
 
 ### Data on Electricity
 
-* [U.S. Energy Information Administration (EIA) Bulk Data](https://www.eia.gov/opendata/v1/bulkfiles.php): Provides extensive information on electricity generation, customer counts, retail electricity prices, and other energy-related statistics across the United States.
+* [U.S. Energy Information Administration (EIA) Bulk Data](https://www.eia.gov/opendata/v1/bulkfiles.php): The `ELEC` bulk file supplies the historical electricity data used in this project. The repository includes annual, quarterly, and monthly extracts for retail customer counts, average retail prices, and plant-level net generation in `Data/Electricity/`. Prices are reported in cents per kilowatthour, generation in megawatthours, and customers as the number of accounts. The annual extracts cover generation and prices from 2001 onward and customer counts from 2008 onward; the most recent year in a bulk download may be incomplete.
+* [EIA Annual Energy Outlook 2026 (AEO2026)](https://www.eia.gov/outlooks/aeo/): Provides national annual projections under 11 scenarios. `Preprocessing AEO2026.ipynb` converts the raw `AEO2026.txt` bulk file into metric-level CSV files. The commercial- and industrial-price notebooks apply the percentage change in each national AEO scenario to the latest observed state price, and the industrial notebook uses the same method for generation. These state-level series are analytical scenario estimates—not official EIA state forecasts. Historical `ELEC` prices are nominal cents per kilowatthour, whereas AEO2026 prices are constant 2025 cents per kilowatthour, so only the AEO percentage paths are applied to observed state baselines.
+
+`Build State-Year ELEC Dataset.ipynb` creates `Data/Electricity/ELEC.state_year.csv`, an analysis-ready table with one row per state (including the District of Columbia) and year. It combines total plant net generation with sector-level prices and customer counts. National and regional series are excluded, and generation is limited to all-fuels/all-prime-movers records before aggregation to prevent double counting.
 
 ### Data on Health
 
@@ -119,22 +122,23 @@ Each notebook documents the preprocessing, data quality assessment, and explorat
 
 - `Inspection Data Centers and Politics.ipynb`: Initial inspection of primary data centers dataset and data related to political factors
 - `Dev_ZIP_to_FIPS.ipynb`: Development of ZIP code to FIPS code (county indentifier) conversion workflow
-- `Industrial Electricity Prices with AEO2026.ipynb`
-- `Commercial Electricity Prices with AEO2026.ipynb`
+- `Industrial Electricity Prices with AEO2026.ipynb`: Compares historical state industrial prices with national AEO2026 price scenarios, derives scenario-based state estimates, and examines historical and projected generation
+- `Commercial Electricity Prices with AEO2026.ipynb`: Compares historical state commercial prices with national AEO2026 scenarios and derives scenario-based state estimates
 
 ### Preprocessing
 
-- `Build State-Year ELEC Dataset.ipynb`
+- `Build State-Year ELEC Dataset.ipynb`: Combines annual generation, retail-price, and customer extracts into the state-year dataset used by the electricity analyses
 - `Health_Data_Cleaning_and_Investigation.ipynb`
-- `Preprocessing AEO2026.ipynb`
-- `Preprocessing ELEC.ipynb`: Data cleaning and pre-processing for electricity dataset
+- `Preprocessing AEO2026.ipynb`: Parses the AEO2026 bulk file, separates metadata from time series, and exports annual CSV files by metric
+- `Preprocessing ELEC.ipynb`: Parses the EIA `ELEC` bulk file and exports annual, quarterly, and monthly extracts for customers, prices, and plant generation
 - `Preprocessing Politics.ipynb`: Data cleaning and pre-processing for political datasets
 
 ### Exploratory Data Analysis
 
 EDA notebooks examining:
 
-- Electricity and power infrastructure (`EDA ELEC.ipynb` and `Data_Center_Grid_Strain_Findings.ipynb`)
+- Electricity and power infrastructure (`EDA ELEC.ipynb`): Descriptive state-level comparisons of data-center concentration with electricity generation, customer counts, and retail prices
+- Data-center pipeline pressure (`Data_Center_Grid_Strain_Findings.ipynb`): Compares reported proposed/approved/under-construction/expanding data-center MW with 2024 average state generation and evaluates missing-MW sensitivity. This is a screening indicator, not a forecast of load, capacity needs, or reliability
 - Political indicators (`EDA Politics.ipynb`)
 - Drought conditions (`EDA Drought.ipynb`)
 
@@ -185,4 +189,3 @@ We include the presentations and written reports prepared as part of this capsto
 - Stansbury, M., Marchese, K., Hardin, K., & Amon, C. (2025, June 24). Can US infrastructure keep up with the AI economy? *Deloitte Insights*. 
 https://www.deloitte.com/us/en/insights/industry/power-and-utilities/data-center-infrastructure-artificial-intelligence.html
 - United States Census Bureau (n.d.). Geographic Levels. *Guidance for Economic Census Geography Users*. https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html 
-
