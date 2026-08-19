@@ -59,7 +59,8 @@ Presentations and Reports/
 ├── Launch Presentation.pdf
 ├── Pitch Presentation.pdf
 ├── Data Acquisition and Pre-processing Report.pdf
-└── EDA Presentation.pdf
+├── EDA Presentation.pdf
+└── Final Presentation.pdf
 
 ```
 
@@ -145,6 +146,7 @@ We include the presentations and written reports prepared as part of this capsto
 - `Pitch Presentation.pdf`: Presentation with more detailed background and data overview and inspection
 - `Data Acquisition and Pre-processing Report.pdf`: Report describing data sources and pre-processing steps in detail
 - `EDA Presentation.pdf`: Presentation of in-progress exploratory data analysis and visualization
+- `Final Presentation.pdf`: Presentation of final findings and summary of project
 
 ---
 
